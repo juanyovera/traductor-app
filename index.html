@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Traductor</title>
 </head>
 <body>
     <div class="container">
         <div>
             <div class="header">
-                <select class="first"></select>
-                <button id="change"><i class=" fas fa-exchange-alt"></i></button>
+                <select class="first">
+                </select>
+                <button class="iconButton" id="change"><i class="fas fa-exchange-alt"></i></button>
                 <select class="second"></select>
             </div>
             <div class="containerTextArea">
@@ -24,17 +25,16 @@
                         <button class="listen iconButton"><i class="fas fa-microphone"></i></button>
                     </div>
                 </div>
-            </div>
-            <div>
-                <textarea class="fromText" placeholder="Enter text"></textarea>
                 <div>
-                    <button class="read iconButton"><i class="fas fa-volume-up"></i></button>
+                    <textarea class="toText" placeholder="Enter text"></textarea>
+                    <div>
+                        <button class="read iconButton"><i class="fas fa-volume-up"></i></button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <button class="translate">translate</button>
+            <button class="translate">Translate</button>
         </div>
     </div>
-    <script src="./script.js" type="module"></script>
+    <script src="js/script.js" type="module"></script>
 </body>
 </html>
