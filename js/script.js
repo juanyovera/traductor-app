@@ -34,7 +34,7 @@ change.addEventListener("click",_=>{
     fromText.value = toText.value
     toText.value = fromTextValue
 })
-//funcionalidad de la traduccion
+//funcionalidad de la traduccion 
 translate.addEventListener("click",async _=>{
     if(!fromText.value) return
     const res = await fetch(`https://api.mymemory.translated.net/get?q=${fromText.value}&langpair=${selectFirst.value}|${selectSecond.value}`)
