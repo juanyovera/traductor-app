@@ -42,7 +42,7 @@ h1{
     font-family: 'Roboto Mono';
     border: 0;
     background: none;
-    outline: none;
+    outline: none; 
 }
 
 .iconButton{
