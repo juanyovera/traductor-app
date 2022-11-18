@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +7,10 @@
 body{
     background-color: #3992a8;
 }
-
+h1{
+    margin: 20px;
+    font-family:'Roboto Mono' ;
+}
 .container{
     width: 100%;
     height: 100vh;
@@ -35,6 +39,7 @@ body{
 }
 
 .header select{
+    font-family: 'Roboto Mono';
     border: 0;
     background: none;
     outline: none;
@@ -56,6 +61,8 @@ body{
 
 
 textarea{
+    font-family: 'Roboto Mono';
+    font-weight: 200;
     width: 100%;
     height: 90%;
     font-size: 20px;
@@ -71,6 +78,8 @@ textarea{
     background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     border: 0;
     cursor: pointer;
+    font-family: 'Roboto Mono';
+    font-weight: 500;
 }
 @media (max-width:481px){
     .container >div{
